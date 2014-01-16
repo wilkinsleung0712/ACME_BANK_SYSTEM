@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+    font-size: 12px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #000000;  
+    margin: 10px;
+}
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+
+
+ul#navigationMenu{
+    margin-left:auto;
+	margin-right:auto;
+        width: 650px;
+        padding-left:100px;
+	padding-right:100px;
+	
+	list-style: none;
+	position: relative;
+	font-size:1em;
+}
+ul#navigationMenu li {
+	float: left;
+	margin: 0; padding: 0;
+	border-right: 1px solid #555;
+}
+
+ul#navigationMenu li a {
+	padding: 5px 10px;
+	display: block;
+	color: #f0f0f0;
+	text-decoration: none;
+}
+ul#navigationMenu li span {
+	float: left;
+	padding: 15px 0;
+	position: absolute;
+	left: 0; top:32px;
+	display: none;
+	width: 580px;
+	background: #002288;
+	color: #fff;
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+
+}
